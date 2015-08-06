@@ -1,2 +1,23 @@
+@import url(//fonts.googleapis.com/css?family=Raleway);
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.jumbotron {
+	text-align: center;
+	background-color: white;
+	height: 350px;
+	color: #009f9b;
+}
+
+h1 {
+	padding-top: 20px;
+	font-family: 'Raleway';
+	color: #009f9b;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Raleway';
+	color: #009f9b;
+}
