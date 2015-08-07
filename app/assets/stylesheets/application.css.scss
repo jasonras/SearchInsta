@@ -2,6 +2,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.row {
+	margin-top:15px;
+	overflow: auto;
+}
 
 .jumbotron {
 	text-align: center;
@@ -48,7 +52,6 @@ p {
 #mainButtons {
 	width: 100%;
 	font-family: Raleway;
-/*	background-color: #009f9b;*/
 	margin-top: 30px;
 	position: relative;
 	overflow: auto;
@@ -72,3 +75,41 @@ h4 {
 	color: #000000;
 	margin-top: 8px;
 }
+
+
+@media (max-width: 375px) {
+  
+h1 {
+	padding-top: 20px;
+	font-family: 'Raleway';
+	color: #009f9b;
+	font-weight: 1em;
+}
+
+.jumbotron {
+	text-align: center;
+	background-color: white;
+	height: 350px;
+	color: #009f9b;
+	padding-top: 5px;
+}
+
+.btn-primary {
+	background-color: #009f9b;
+	padding: 5px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
