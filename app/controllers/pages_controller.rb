@@ -1,9 +1,9 @@
 class PagesController < ApplicationController
   def home
     # %w() creates an array of strings, split by white space
-    @tags = %w( Barista
-                BlueOrWhite
-                Commute
+    @tags = %w( skimmlife
+                theskimm
+                refresh
                 WaiterOrWaitress
                 AtTheGym
                 WithAPet
