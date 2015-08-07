@@ -48,7 +48,7 @@ p {
 	width: 100%;
 	font-family: Raleway;
 /*	background-color: #009f9b;*/
-	margin-top: 50px;
+	margin-top: 30px;
 	position: relative;
 	overflow: auto;
 }
@@ -63,5 +63,11 @@ button {
 
 .btn-primary {
 	background-color: #009f9b;
-	
+	padding: 15px;
+}
+
+h4 {
+	font-family: Raleway;
+	color: #000000;
+	margin-top: 8px;
 }
