@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def home
-  	access_token = ENV["16101639.80fea2a.123f2c80f483496f9cfb48d63f897caf"]
+  	access_token = ENV["CONFIG.ACCESS_TOKEN"]
     client = Instagram.client(access_token: access_token)
     default_search = client.tag_search('skimmlife')
 
