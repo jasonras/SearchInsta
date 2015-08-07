@@ -21,3 +21,42 @@ p {
 	font-family: 'Raleway';
 	color: #009f9b;
 }
+
+.profile-image {
+	position: absolute;
+	border: 2px solid #009f9b;
+	left: 25px;
+	bottom:30px;
+}
+
+.profile-image img {
+	height: 100px;
+	widows: 100px;
+}
+
+.caption {
+	text-align: center;
+	font-family: 'Raleway';
+	font-size: 1em;
+}
+
+.btn btn-lg btn-primary {
+	background-color: #009f9b;
+}
+
+#mainButtons {
+	width: 100%;
+	font-family: Raleway;
+/*	background-color: #009f9b;*/
+	margin-top: 50px;
+	position: relative;
+	overflow: auto;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #009f9b;
+	color: #FFFFFF;
+	height: 50px;
+	width: 130px;
+}
